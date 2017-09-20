@@ -9,7 +9,7 @@ function frame_loaded() {
         var span = document.createElement("span"); 
 
         a.appendChild(document.createTextNode("(Edit this page)")); 
-        a.href ="www.foo.com";
+        a.href ="https://trial.stilo-authorbridge.com?url=github://getFileContent/pgbsandbox/pgbsandbox.docs/master/DITA/add-figure.dita"
         span.innerHTML += "&nbsp;&nbsp;&nbsp;"
         span.style.fontSize = "1.1rem";
         span.appendChild(a);
