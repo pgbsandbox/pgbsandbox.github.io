@@ -13,7 +13,7 @@ function frame_loaded() {
         var span = document.createElement("span"); 
 
         a.appendChild(document.createTextNode("(Edit this page)")); 
-        a.href ="http://authorbridge?scope=GitHub&path=pgbsandbox:pgbsandbox.docs:master:/DITA/" + path
+        a.href ="http://authorbridge?scope=GitHub&path=pgbsandbox:mydocs:master:/DITA/" + path
         span.innerHTML += "&nbsp;&nbsp;&nbsp;"
         span.style.fontSize = "1.1rem";
         span.appendChild(a);
