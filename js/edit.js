@@ -8,6 +8,8 @@ function frame_loaded() {
 
         var meta = window.frames["contentwin"].document.querySelector('meta[name="filepath"]');
         var path = meta && meta.getAttribute("content");
+        if (path.charAt(0) == '.' && path.charAt(1) == '/')
+            path = path.substring(2);
 
         var a    = document.createElement("a");
         var span = document.createElement("span"); 
